@@ -1,0 +1,21 @@
+{
+  "name": "arduino",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "babel-cli": "^6.0.0",
+    "babel-preset-es2015": "^6.0.0",
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "websocket": "^1.0.34",
+    "ws": "^7.4.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-server": "babel-node --presets es2015 server.js",
+    "start-client": "babel-node --presets es2015 main.js"
+  },
+  "author": "Suryo Adiguna",
+  "license": "ISC"
+}
